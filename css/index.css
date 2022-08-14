@@ -37,20 +37,20 @@ nav{
 
 .left-section h3{
     font-family: 'Poppins';
-    /* font-size: 40px; */
+    font-size: 40px;
     font-weight: 200;
 }
 
 .left-section h1{
     font-family: 'Fredoka One';
-    /* font-size: 80px; */
+    font-size: 80px;
     font-weight: 400;
 }
 .left-section h5{
     align-items: center;
     display: flex;
     font-family:'Poppins';
-    /* font-size: 30px; */
+    font-size: 30px;
 }
 
 .left-section h5 img{
@@ -62,7 +62,7 @@ nav{
 
 .text{
     font-family: 'Poppins';
-    /* font-size: 19px; */
+    font-size: 19px;
     color: rgb(32, 31, 31);
 }
 
@@ -80,7 +80,6 @@ nav{
 
 .headphone-div{
     position: relative;
-   
 }
 
 .discount{
