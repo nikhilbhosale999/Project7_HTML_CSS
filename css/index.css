@@ -1,7 +1,7 @@
 *{
        
     margin: 0;
-    padding: 2vh;
+    padding: 10px;
   }
   
 /* navbar */
@@ -10,14 +10,12 @@ nav{
     justify-content: space-between;
 }
 .nav-items{
-    width: 600px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
     align-items: center;
     justify-content: center;
-   
    font-size: 30px;
    font-family: 'Poppins';
+   flex-wrap: wrap;
 }
 .nav-item{
     font-weight: 100;
@@ -31,8 +29,9 @@ nav{
 /* Header */
 
 .intro-section{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .left-section h3{
@@ -75,11 +74,11 @@ nav{
     font-size: 25px;
     font-family: 'Poppins';
     margin-right: 20px;
+    margin-top: 10px;
 }
 
 .headphone-div{
     position: relative;
-    margin-top: -70px;
    
 }
 
